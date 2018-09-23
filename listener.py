@@ -15,7 +15,7 @@ except ImportError:
     from argparse import Namespace
 
 try:
-    fileopen = open("host_list", "r")
+    fileopen = open("/hostlist", "r")
     
     hosts_to_update = fileopen.read().splitlines()
 except:
@@ -26,12 +26,8 @@ logging.basicConfig(filename='dns_updater.log',level=logging.DEBUG)
 
 
 FIVE_MINUTES = 5 * 60
+WAIT_BETWEEN_CALLS = 3
 
-#client = dns.Client.from_service_account_json('/home/tom/coding/docker_gcloud_dns/client_secrets.json')
-
-
-
-domain = 'tom-george.com'
 
 def hostname_resolves(hostname):
     try:
@@ -42,10 +38,10 @@ def hostname_resolves(hostname):
         return 0
 
 def updateDNS(record, ip):
-    client = dns.Client.from_service_account_json('/home/tom/coding/docker_gcloud_dns/client_secrets.json')
+    client = dns.Client.from_service_account_json('/client_secrets.json')
     zone = client.zone('tomgeorge')
 
-    full_record = record + '.tom-george.com.'
+    full_record = record + '.'
     
     if hostname_resolves(full_record) == 1:
         record_set = zone.resource_record_set(full_record, 'A', FIVE_MINUTES, [ip,])
@@ -61,11 +57,9 @@ def updateDNS(record, ip):
     changes.create()  # API request
     while changes.status != 'done':
         logging.info('Waiting for changes to complete')
-        time.sleep(5)     # or whatever interval is appropriate
+        time.sleep(WAIT_BETWEEN_CALLS)     # or whatever interval is appropriate
         changes.reload()   # API request
         logging.info('Changes completed')
-
-
 
 
 with urllib.request.urlopen("http://wtfismyip.com/json") as url:
@@ -77,7 +71,6 @@ print (JSON_object['YourFuckingIPAddress'])
 
 try:
     mfip = JSON_object['YourFuckingIPAddress']
-    #print (mfip)
 except Exception as e:
     print (e)
 
