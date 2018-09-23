@@ -1,0 +1,295 @@
+DEBUG:docker.auth.auth:Trying paths: <filter object at 0x7fdc331ccc88>
+DEBUG:docker.auth.auth:No config file found
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.24/events HTTP/1.1" 200 None
+DEBUG:docker.auth.auth:Trying paths: <filter object at 0x7f0052488cf8>
+DEBUG:docker.auth.auth:No config file found
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.24/events HTTP/1.1" 200 None
+CRITICAL:root:name 'docker' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 404 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/49 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/52 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/53 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/54 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/55 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/56 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/57 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/59 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/60 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 404 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 400 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 400 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/61 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 404 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/63 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/64 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/65 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/66 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/67 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/68 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/69 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/70 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/71 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/72 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/73 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/75 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/76 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/77 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 412 None
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/79 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/80 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/81 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "GET /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes/82 HTTP/1.1" 200 None
+INFO:root:Changes completed
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://www.googleapis.com:443 "POST /dns/v1/projects/tgcom-148316/managedZones/tomgeorge/changes HTTP/1.1" 200 None
+INFO:root:Waiting for changes to complete
